@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('invalid login', async ({ page }) => {
+test('user cannot login with invalid credentials', async ({ page }) => {
   await page.goto('https://www.saucedemo.com/');
 
   await page.locator('#user-name').fill('wrong_user');

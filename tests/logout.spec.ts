@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('logout', async ({ page }) => {
+test('user can logout', async ({ page }) => {
 
   await page.goto('https://www.saucedemo.com/');
 

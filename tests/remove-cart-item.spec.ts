@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('remove to cart', async ({ page }) => {
+test('user can remove items from cart', async ({ page }) => {
     //Login locators
     const usernameInput = page.locator('#user-name');
     const passwordInput = page.locator('#password');
